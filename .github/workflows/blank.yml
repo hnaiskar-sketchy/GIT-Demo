@@ -12,4 +12,3 @@ jobs:
         run: |
           echo "This is line one"
           echo "This is line two"
-         
