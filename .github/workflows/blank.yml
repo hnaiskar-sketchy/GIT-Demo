@@ -1,4 +1,4 @@
-name: Hello Eleven
+name: Hello World
 
 on:
   workflow_dispatch:
@@ -28,4 +28,3 @@ jobs:
     steps:
       - name: Deploy the App
         run: echo "Deploying the app"
-       - 
