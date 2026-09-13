@@ -25,8 +25,10 @@ jobs:
           if [ -f requirements.txt ]; then
             pip install -r requirements.txt
           else
-            echo "requirements.txt not found. Skipping dependency installation."
+            echo "requirements.txt not found. Skipping application dependencies."
           fi
+
+          pip install pytest
 
       - name: Run unit tests
         run: pytest
